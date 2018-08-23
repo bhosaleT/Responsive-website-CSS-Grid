@@ -6,7 +6,7 @@
   Let's go through the important bits real quick
 */
 :root {
-  --yellow: #ffc600;
+  --yellow: #ff503c;
   --black: #272727;
 }
 
@@ -34,8 +34,7 @@ html {
 }
 
 body {
-  background-image: url("./images/topography.svg"),
-    linear-gradient(110deg, #f93d66, #6d47d9);
+  background: var(--black);
   background-size: 340px, auto;
   min-height: calc(100vh - 100px);
   margin: 50px;
